@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Arson Inc. Order Form</title>
+		<meta charset="utf-8">
+		<link href="arson.css" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<h1>Arson Incorporated</h1><br>
+			<h2>Lighting Stuff On Fire since 2012</h2>
+		</header>
+		<nav>
+			<b>
+				<a href="index.html">Home</a> <br>
+				<a href="something.html">Something</a> <br>
+				<a href="something-else.html">Something Else</a> <br>
+			</b>
+		</nav>
+		<main>
+				<p>Welcome to the order form! Please fill out all provided fields. If you would like to view our product list, please visit something. Thank you. <br> Required fields are marked with an asterisk *.</p>
+				<form method="post" action="https://webdevbasics.net/scripts/demo.php">
+					<label for="myFName"> * First Name</label>
+					<input type="text" name="myFName" id="myFName" required="required">
+					<label for="myLName"> * Last Name</label>
+					<input type="text" name="myLName" id="myLName" required="required">
+					<label for="myEmail"> * Email Adress</label>
+					<input type="email" name="myEmail" id="myEmail" required="required">
+					<label for="myOrder"> * Product</label>
+					<select size="1" name="myOrder" id="myOrder" required="required">
+						<option>Starter Kit</option>
+						<option>Flamethrower</option>
+						<option>Summer Kit</option>
+					</select>
+					<label for="myCCInfo">* Credit Card Number </label>
+					<input type="number" name="myCCInfo" id="myCCInfo" maxlength="16" required="required">
+					<label for="mySSIDNumber">Social Security Number</label>
+					<input type="number" name="mySSIDNumber" id="mySSIDNumber" maxlength="9">
+					<label for="MMName">Mothers Maiden Name</label>
+					<input type="text" name="MMName" id="MMName">
+					<label for="myISoul">50% discount?<a href="discount.html">.</a></label><br>
+					<input type="radio" name="myISoul"  id="myISoulyay" value="yay">Yes<br> 
+					<input type="radio" name="myISoul"  id="myISoulnay" value="nay">No<br> 
+					<label for="myComments"> * Comments </label>
+					<textarea name="myComments" rows="2" cols="30"></textarea>
+					<input type="submit">
+		</main>
+		<img src="flame.jpg" height="340px" width="80%" alt="Image Id: A picture of a glorious flame, consuming in it's hunger bracken." class="center">
+		<footer>
+			<small>
+				<i>
+					Copyright &copy; 2020 Arson Inc.<br>
+					<a href="mailto:lance.larson5348@mail.davistech.edu">Lance.Larson5348@mail.davistech.edu</a>
+				</i>
+			</small>
+		</footer>
+		<img src="orange.jpg" height="10%" width="10%" alt="Image Id: A picture of an orange. This has no particular relevence to the website, I just like oranges." class="center">
+	</body>
+</html>
